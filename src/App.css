@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+main {
+  text-align: center;
+  vertical-align: center;
+}
+
+.list{
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.book{
+  border: .1em solid #000;
+  
+}
+
+.icon{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
